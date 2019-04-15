@@ -1,0 +1,7 @@
+the python code of the first homework is the following:
+
+my_word = 'abcd1234'
+
+print('The Oreginal word is:\n',my_word)
+
+print('The Reversed word is:\n',my_word[::-1])
