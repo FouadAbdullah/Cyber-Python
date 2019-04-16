@@ -1,0 +1,24 @@
+
+
+user_num = int(input('\n\n     Please Enter a Positive Number Greater thean 1:  '))
+
+even_num = user_num % 2
+odd_num = user_num % 5
+
+while True:
+  
+  if user_num > 1:
+    
+    if user_num == 2 or user_num == 3 or user_num == 5:
+       print('\n\n     YOUR NUMBER is a PRIME\n\n')
+       
+    elif even_num == 0 or odd_num == 0:
+       print('\n\n     YOUR NUMBER is NOT a PRIME\n\n')
+    
+    elif even_num != 0 or odd_num != 0:
+       print('\n\n     YOUR NUMBER is a PRIME\n\n')
+  
+  break
+  
+  else:
+      int(input('\n\n     Please reEnter a Positive Number Greater thean 1:  ')
